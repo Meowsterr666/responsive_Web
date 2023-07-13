@@ -277,12 +277,6 @@ i:hover, .facebook:hover, .twitter:hover, .insta:hover, .link:hover {
 }
 
 @media (max-width: 768px) {
-  
-  footer {
-    margin: 50px 0px 0px 0px;
-    display: grid;
-    grid-template-rows: repeat(auto-fit, minmax(40px, 1fr));
-  }
 
   #menu-list {
     text-align: center;
@@ -356,7 +350,7 @@ i:hover, .facebook:hover, .twitter:hover, .insta:hover, .link:hover {
   }
 
   .team img {
-    width: 270px;
+    width: 190px;
   }
   .arrow {
     display: none;
@@ -386,14 +380,6 @@ i:hover, .facebook:hover, .twitter:hover, .insta:hover, .link:hover {
 
   .ending {
     padding: 10px 50px 0px 50px;
-  }
-
-  .ending1 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    background-color:  #282828;
-    color: #777;
-    justify-items: center;
   }
 
   .fa-brands { font-size: initial; }
